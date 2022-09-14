@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pays API">
+        <title>Pays API</title>
+        <link rel="shortcut icon" href="./assets/icons/img/icon-128x128.png">
+        <link rel="stylesheet" href="./styles/mainstyle.css">
+        <link rel="preconnect" href="https://upload.wikimedia.org">
+        <link rel="preconnect" href="https://flagcdn.com">
+        <!-- PWA -->
+        <link rel="manifest" href="./manifest.json">
+        <link rel="apple-touch-icon" href="/assets/icons/img/icon-96x96.png">
+        <meta name="apple-mobile-web-app-status-bar" content="black">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="black">
+    </head>
+    <body>
+        <nav>
+            <div class="nav_logo"></div>
+            <div class="nav_title">Pays API</div>
+        </nav>
+
+        <div class="flex_box">
+            <form id="searchForm" class="form">
+                <input type="text" placeholder="Entrez le nom d'un pays" id="searchInput" class="search_bar"><br>
+                <input type="submit" value="Rechercher" class="submit">
+            </form>
+        </div>
+
+        <div class="result-div" id="result"></div>
+        
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
